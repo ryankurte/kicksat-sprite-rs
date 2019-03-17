@@ -1,0 +1,7 @@
+h
+loadbin target/thumbv7m-none-eabi/debug/kicksat-app.bin 0x00000000
+verifybin target/thumbv7m-none-eabi/debug/kicksat-app.bin 0x00000000 
+r
+g
+qc
+

@@ -1,0 +1,19 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "cortex-debug",
+            "request": "launch",
+            "servertype": "jlink",
+            "cwd": "${workspaceRoot}",
+            "executable": "target/thumbv7m-none-eabi/debug/kicksat-app",
+            "name": "Debug (J-Link)",
+            "device": "atsamd51g19",
+            "interface": "swd",
+            "postLaunchCommands": [
+            ],
+            "ipAddress": null,
+            "serialNumber": null,q
+        }
+    ]
+}
