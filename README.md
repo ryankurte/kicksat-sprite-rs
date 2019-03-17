@@ -5,9 +5,7 @@ A work in progress application for the Kicksat Sprite. This requires the also wo
 ## Status
 Builds, runs on board (if you can convince it to load), needs more pins and peripherals to be defined and implemented.
 
-Note that the uf2 bootloader has boot protection and a bootloader offset set that must be cleared using atmel studio before loading will work.
-
-* As the kicksat target has not (yet) been published
+Note that the uf2 bootloader has boot protection and a bootloader offset set that must be cleared using atmel studio before loading will work (set `NVM BOOTPROT` fuse to `0x0F`).
 
 ## Setup
 
